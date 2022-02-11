@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <mirrors>
+        <mirror>
+            <id>dpf-m2</id>
+            <mirrorOf>central</mirrorOf>
+            <name>Nexus CGTI/DPF</name>
+            <url>https://sistemas.dpf.gov.br/nexus/repository/maven-public/</url>
+        </mirror>
+    </mirrors>
+
+    <servers>
+        <server>
+            <id>dpf-m2</id>
+            <username>anonymous</username>
+            <password>anonymous</password>
+        </server>
+        <server>
+            <id>libs-release-local</id>
+            <username>anonymous</username>
+            <password> anonymous</password>
+       </server>        
+        <server>
+            <id>libs-snapshot-local</id>
+            <username>anonymous</username>
+            <password> anonymous</password>
+       </server>
+    </servers>
+
+</settings>
